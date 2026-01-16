@@ -60,4 +60,4 @@ The model was trained on the **CIFAR-10 dataset** to explore the complete CNN wo
 - Used `nn.Linear` layers to map features to **10 output classes**
 
 #### 🔹 Forward Function
-- Data flow:
+```Conv → ReLU → Pool → Flatten → Fully Connected
